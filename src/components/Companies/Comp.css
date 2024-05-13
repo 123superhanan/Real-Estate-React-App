@@ -1,0 +1,20 @@
+.co-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem; 
+}
+.co-container img{
+    width: 9rem;
+    transition: all linear 0.5s;
+}
+.co-container img:hover{
+    scale: 1.255;
+    filter: drop-shadow(2px 3px 6px black);
+    
+}
+@media  (max-width: 768px){
+    .co-container img{
+        width: 5rem;
+    }
+}
